@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30014.187
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31410.414
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5222DDE2-1EDD-4EE8-B0E0-FE11C152E485}"
 	ProjectSection(SolutionItems) = preProject
@@ -39,7 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrimDB.Core", "src\TrimDB.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrimDB.Core.Facts", "tests\TrimDB.Core.Facts\TrimDB.Core.Facts.csproj", "{9A0D6D6D-C8F8-4702-87ED-F67F05442B37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrimDB.DatabaseStress", "benchmarks\TrimDB.DatabaseStress\TrimDB.DatabaseStress.csproj", "{15E622EE-2445-4272-BA20-A3EDC878F8D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrimDB.DatabaseStress", "benchmarks\TrimDB.DatabaseStress\TrimDB.DatabaseStress.csproj", "{15E622EE-2445-4272-BA20-A3EDC878F8D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "playground", "playground", "{2A76662E-6208-457F-962D-9C221511D8EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrimDb.Playground", "playground\TrimDb.Playground\TrimDb.Playground.csproj", "{3C26D320-E683-42ED-9058-C109DFC87E43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,10 @@ Global
 		{15E622EE-2445-4272-BA20-A3EDC878F8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15E622EE-2445-4272-BA20-A3EDC878F8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15E622EE-2445-4272-BA20-A3EDC878F8D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C26D320-E683-42ED-9058-C109DFC87E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C26D320-E683-42ED-9058-C109DFC87E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C26D320-E683-42ED-9058-C109DFC87E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C26D320-E683-42ED-9058-C109DFC87E43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +80,7 @@ Global
 		{189F860F-7A65-4569-B264-B958FEFDF1AF} = {5222DDE2-1EDD-4EE8-B0E0-FE11C152E485}
 		{9A0D6D6D-C8F8-4702-87ED-F67F05442B37} = {7B7C0343-6B49-4D54-BEE2-DB279C70577C}
 		{15E622EE-2445-4272-BA20-A3EDC878F8D5} = {1B9A3EE5-CC6B-4915-AE92-6BF316E53DC8}
+		{3C26D320-E683-42ED-9058-C109DFC87E43} = {2A76662E-6208-457F-962D-9C221511D8EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3927E62A-6330-4331-9B9A-160C0CE4D994}
